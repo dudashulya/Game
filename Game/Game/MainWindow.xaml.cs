@@ -23,6 +23,7 @@ namespace Game
         public MainWindow()
         {
             InitializeComponent();
+            //vvv
         }
     }
 }
