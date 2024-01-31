@@ -12,22 +12,22 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Game.Pages;
 
-namespace Game
+namespace Game.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Person.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Person : Page
     {
-        MainWindow mainWindow;
-        public MainWindow()
+        public Person()
         {
             InitializeComponent();
-            mainWindow = this;
-            MyFrame.Navigate(new Person());
-            
+        }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }
